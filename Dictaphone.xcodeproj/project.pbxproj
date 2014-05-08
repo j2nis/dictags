@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0A7768191C0144007541CB /* icon_record_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0A7766191C0144007541CB /* icon_record_off@2x.png */; };
+		EF0A7769191C0144007541CB /* icon_record_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0A7767191C0144007541CB /* icon_record_on@2x.png */; };
+		EF0A776D191C0799007541CB /* icon_record_off.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0A776B191C0799007541CB /* icon_record_off.png */; };
+		EF0A776E191C0799007541CB /* icon_record_on.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0A776C191C0799007541CB /* icon_record_on.png */; };
+		EFB2BF5F1918068F005D91BE /* CRecorderUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFB2BF5E1918068F005D91BE /* CRecorderUI.mm */; };
+		EFC9DECA1912EA3900371136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC9DEC91912EA3900371136 /* Foundation.framework */; };
+		EFC9DECC1912EA3900371136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC9DECB1912EA3900371136 /* CoreGraphics.framework */; };
+		EFC9DECE1912EA3900371136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC9DECD1912EA3900371136 /* UIKit.framework */; };
+		EFC9DED41912EA3900371136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC9DED21912EA3900371136 /* InfoPlist.strings */; };
+		EFC9DED61912EA3900371136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC9DED51912EA3900371136 /* main.m */; };
+		EFC9DEDA1912EA3900371136 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFC9DED91912EA3900371136 /* AppDelegate.mm */; };
+		EFC9DEDC1912EA3A00371136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC9DEDB1912EA3A00371136 /* Images.xcassets */; };
+		EFC9DEE31912EA3A00371136 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC9DEE21912EA3A00371136 /* XCTest.framework */; };
+		EFC9DEE41912EA3A00371136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC9DEC91912EA3900371136 /* Foundation.framework */; };
+		EFC9DEE51912EA3A00371136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC9DECD1912EA3900371136 /* UIKit.framework */; };
+		EFC9DEED1912EA3A00371136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC9DEEB1912EA3A00371136 /* InfoPlist.strings */; };
+		EFC9DEEF1912EA3A00371136 /* DictaphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC9DEEE1912EA3A00371136 /* DictaphoneTests.m */; };
+		EFC9DEFD1912EDF100371136 /* CAppManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFC9DEFC1912EDF100371136 /* CAppManager.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFC9DEE61912EA3A00371136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC9DEBE1912EA3900371136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC9DEC51912EA3900371136;
+			remoteInfo = Dictaphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0A7766191C0144007541CB /* icon_record_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_record_off@2x.png"; path = "../icon_record_off@2x.png"; sourceTree = "<group>"; };
+		EF0A7767191C0144007541CB /* icon_record_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_record_on@2x.png"; path = "../icon_record_on@2x.png"; sourceTree = "<group>"; };
+		EF0A776B191C0799007541CB /* icon_record_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_record_off.png; path = ../icon_record_off.png; sourceTree = "<group>"; };
+		EF0A776C191C0799007541CB /* icon_record_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_record_on.png; path = ../icon_record_on.png; sourceTree = "<group>"; };
+		EFB2BF5D1918068F005D91BE /* CRecorderUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRecorderUI.h; sourceTree = "<group>"; };
+		EFB2BF5E1918068F005D91BE /* CRecorderUI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CRecorderUI.mm; sourceTree = "<group>"; };
+		EFB2BF611918082D005D91BE /* iRecorderUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRecorderUI.h; sourceTree = "<group>"; };
+		EFB2BF6319180F78005D91BE /* MacrosUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacrosUI.h; sourceTree = "<group>"; };
+		EFC9DEC61912EA3900371136 /* Dictaphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictaphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC9DEC91912EA3900371136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFC9DECB1912EA3900371136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFC9DECD1912EA3900371136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFC9DED11912EA3900371136 /* Dictaphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dictaphone-Info.plist"; sourceTree = "<group>"; };
+		EFC9DED31912EA3900371136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFC9DED51912EA3900371136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFC9DED71912EA3900371136 /* Dictaphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dictaphone-Prefix.pch"; sourceTree = "<group>"; };
+		EFC9DED81912EA3900371136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFC9DED91912EA3900371136 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		EFC9DEDB1912EA3A00371136 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFC9DEE11912EA3A00371136 /* DictaphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictaphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC9DEE21912EA3A00371136 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFC9DEEA1912EA3A00371136 /* DictaphoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DictaphoneTests-Info.plist"; sourceTree = "<group>"; };
+		EFC9DEEC1912EA3A00371136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFC9DEEE1912EA3A00371136 /* DictaphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictaphoneTests.m; sourceTree = "<group>"; };
+		EFC9DEFB1912EDF100371136 /* CAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAppManager.h; sourceTree = "<group>"; };
+		EFC9DEFC1912EDF100371136 /* CAppManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CAppManager.mm; sourceTree = "<group>"; };
+		EFC9DF011912F17100371136 /* iAppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iAppManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC9DEC31912EA3900371136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9DECC1912EA3900371136 /* CoreGraphics.framework in Frameworks */,
+				EFC9DECE1912EA3900371136 /* UIKit.framework in Frameworks */,
+				EFC9DECA1912EA3900371136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC9DEDE1912EA3A00371136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9DEE31912EA3A00371136 /* XCTest.framework in Frameworks */,
+				EFC9DEE51912EA3A00371136 /* UIKit.framework in Frameworks */,
+				EFC9DEE41912EA3A00371136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0A776A191C01A4007541CB /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				EF0A776B191C0799007541CB /* icon_record_off.png */,
+				EF0A776C191C0799007541CB /* icon_record_on.png */,
+				EF0A7766191C0144007541CB /* icon_record_off@2x.png */,
+				EF0A7767191C0144007541CB /* icon_record_on@2x.png */,
+			);
+			name = IMAGES;
+			sourceTree = "<group>";
+		};
+		EFB2BF5C191805C6005D91BE /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2BF5D1918068F005D91BE /* CRecorderUI.h */,
+				EFB2BF5E1918068F005D91BE /* CRecorderUI.mm */,
+			);
+			name = Recorder;
+			sourceTree = "<group>";
+		};
+		EFB2BF6019180809005D91BE /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2BF611918082D005D91BE /* iRecorderUI.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		EFB2BF6219180F5F005D91BE /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2BF6319180F78005D91BE /* MacrosUI.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		EFC9DEBD1912EA3900371136 = {
+			isa = PBXGroup;
+			children = (
+				EFC9DECF1912EA3900371136 /* Dictaphone */,
+				EFC9DEE81912EA3A00371136 /* DictaphoneTests */,
+				EFC9DEC81912EA3900371136 /* Frameworks */,
+				EFC9DEC71912EA3900371136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC9DEC71912EA3900371136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DEC61912EA3900371136 /* Dictaphone.app */,
+				EFC9DEE11912EA3A00371136 /* DictaphoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC9DEC81912EA3900371136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DEC91912EA3900371136 /* Foundation.framework */,
+				EFC9DECB1912EA3900371136 /* CoreGraphics.framework */,
+				EFC9DECD1912EA3900371136 /* UIKit.framework */,
+				EFC9DEE21912EA3A00371136 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC9DECF1912EA3900371136 /* Dictaphone */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DED81912EA3900371136 /* AppDelegate.h */,
+				EFC9DED91912EA3900371136 /* AppDelegate.mm */,
+				EF0A776A191C01A4007541CB /* IMAGES */,
+				EFC9DEFA1912ED0600371136 /* TOOLS */,
+				EFC9DEF91912ECEF00371136 /* COMP */,
+				EFC9DEF81912ECE400371136 /* UI */,
+				EFC9DEDB1912EA3A00371136 /* Images.xcassets */,
+				EFC9DED01912EA3900371136 /* Supporting Files */,
+			);
+			path = Dictaphone;
+			sourceTree = "<group>";
+		};
+		EFC9DED01912EA3900371136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DED11912EA3900371136 /* Dictaphone-Info.plist */,
+				EFC9DED21912EA3900371136 /* InfoPlist.strings */,
+				EFC9DED51912EA3900371136 /* main.m */,
+				EFC9DED71912EA3900371136 /* Dictaphone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC9DEE81912EA3A00371136 /* DictaphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DEEE1912EA3A00371136 /* DictaphoneTests.m */,
+				EFC9DEE91912EA3A00371136 /* Supporting Files */,
+			);
+			path = DictaphoneTests;
+			sourceTree = "<group>";
+		};
+		EFC9DEE91912EA3A00371136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DEEA1912EA3A00371136 /* DictaphoneTests-Info.plist */,
+				EFC9DEEB1912EA3A00371136 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC9DEF81912ECE400371136 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2BF6019180809005D91BE /* Includes */,
+				EFB2BF5C191805C6005D91BE /* Recorder */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		EFC9DEF91912ECEF00371136 /* COMP */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DF001912EF8900371136 /* Includes */,
+				EFC9DEFF1912EE6500371136 /* AppManager */,
+			);
+			name = COMP;
+			sourceTree = "<group>";
+		};
+		EFC9DEFA1912ED0600371136 /* TOOLS */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2BF6219180F5F005D91BE /* Includes */,
+			);
+			name = TOOLS;
+			sourceTree = "<group>";
+		};
+		EFC9DEFF1912EE6500371136 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DEFC1912EDF100371136 /* CAppManager.mm */,
+				EFC9DEFB1912EDF100371136 /* CAppManager.h */,
+			);
+			name = AppManager;
+			sourceTree = "<group>";
+		};
+		EFC9DF001912EF8900371136 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9DF011912F17100371136 /* iAppManager.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC9DEC51912EA3900371136 /* Dictaphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC9DEF21912EA3A00371136 /* Build configuration list for PBXNativeTarget "Dictaphone" */;
+			buildPhases = (
+				EFC9DEC21912EA3900371136 /* Sources */,
+				EFC9DEC31912EA3900371136 /* Frameworks */,
+				EFC9DEC41912EA3900371136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dictaphone;
+			productName = Dictaphone;
+			productReference = EFC9DEC61912EA3900371136 /* Dictaphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC9DEE01912EA3A00371136 /* DictaphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC9DEF51912EA3A00371136 /* Build configuration list for PBXNativeTarget "DictaphoneTests" */;
+			buildPhases = (
+				EFC9DEDD1912EA3A00371136 /* Sources */,
+				EFC9DEDE1912EA3A00371136 /* Frameworks */,
+				EFC9DEDF1912EA3A00371136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC9DEE71912EA3A00371136 /* PBXTargetDependency */,
+			);
+			name = DictaphoneTests;
+			productName = DictaphoneTests;
+			productReference = EFC9DEE11912EA3A00371136 /* DictaphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC9DEBE1912EA3900371136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MacDEV;
+				TargetAttributes = {
+					EFC9DEC51912EA3900371136 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					EFC9DEE01912EA3A00371136 = {
+						TestTargetID = EFC9DEC51912EA3900371136;
+					};
+				};
+			};
+			buildConfigurationList = EFC9DEC11912EA3900371136 /* Build configuration list for PBXProject "Dictaphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFC9DEBD1912EA3900371136;
+			productRefGroup = EFC9DEC71912EA3900371136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC9DEC51912EA3900371136 /* Dictaphone */,
+				EFC9DEE01912EA3A00371136 /* DictaphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC9DEC41912EA3900371136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0A776D191C0799007541CB /* icon_record_off.png in Resources */,
+				EF0A776E191C0799007541CB /* icon_record_on.png in Resources */,
+				EF0A7768191C0144007541CB /* icon_record_off@2x.png in Resources */,
+				EF0A7769191C0144007541CB /* icon_record_on@2x.png in Resources */,
+				EFC9DED41912EA3900371136 /* InfoPlist.strings in Resources */,
+				EFC9DEDC1912EA3A00371136 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC9DEDF1912EA3A00371136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9DEED1912EA3A00371136 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC9DEC21912EA3900371136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9DEFD1912EDF100371136 /* CAppManager.mm in Sources */,
+				EFC9DEDA1912EA3900371136 /* AppDelegate.mm in Sources */,
+				EFC9DED61912EA3900371136 /* main.m in Sources */,
+				EFB2BF5F1918068F005D91BE /* CRecorderUI.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC9DEDD1912EA3A00371136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC9DEEF1912EA3A00371136 /* DictaphoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC9DEE71912EA3A00371136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC9DEC51912EA3900371136 /* Dictaphone */;
+			targetProxy = EFC9DEE61912EA3A00371136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFC9DED21912EA3900371136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC9DED31912EA3900371136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFC9DEEB1912EA3A00371136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC9DEEC1912EA3A00371136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC9DEF01912EA3A00371136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC9DEF11912EA3A00371136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC9DEF31912EA3A00371136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dictaphone/Dictaphone-Prefix.pch";
+				INFOPLIST_FILE = "Dictaphone/Dictaphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/macdev/Documents/Projects/Dictaphone/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFC9DEF41912EA3A00371136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dictaphone/Dictaphone-Prefix.pch";
+				INFOPLIST_FILE = "Dictaphone/Dictaphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/macdev/Documents/Projects/Dictaphone/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFC9DEF61912EA3A00371136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dictaphone.app/Dictaphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dictaphone/Dictaphone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DictaphoneTests/DictaphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFC9DEF71912EA3A00371136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dictaphone.app/Dictaphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dictaphone/Dictaphone-Prefix.pch";
+				INFOPLIST_FILE = "DictaphoneTests/DictaphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC9DEC11912EA3900371136 /* Build configuration list for PBXProject "Dictaphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC9DEF01912EA3A00371136 /* Debug */,
+				EFC9DEF11912EA3A00371136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC9DEF21912EA3A00371136 /* Build configuration list for PBXNativeTarget "Dictaphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC9DEF31912EA3A00371136 /* Debug */,
+				EFC9DEF41912EA3A00371136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC9DEF51912EA3A00371136 /* Build configuration list for PBXNativeTarget "DictaphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC9DEF61912EA3A00371136 /* Debug */,
+				EFC9DEF71912EA3A00371136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC9DEBE1912EA3900371136 /* Project object */;
+}
